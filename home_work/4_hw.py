@@ -149,3 +149,18 @@ print('Результат: ', result3.subtraction())
 print('\n')
 
 # ЗАДАЧА 3
+class Button:
+    type: str = 'Кнопка'
+    def __init__(self, text, loc=None):
+        self.text = text
+        self.loc = loc
+    def click(self):
+        return 'клик по кнопке'- {}".format(self.loc")
+
+
+Elements = Button()
+Forms = Button()
+Alerts = Button()
+Widgets = Button()
+Interactions = Button()
+BookStore = Button()
