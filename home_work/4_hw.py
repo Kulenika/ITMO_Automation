@@ -151,16 +151,25 @@ print('\n')
 # ЗАДАЧА 3
 class Button:
     type: str = 'Кнопка'
-    def __init__(self, text, loc=None):
-        self.text = text
-        self.loc = loc
+    text = None
+    loc = None
+
+Button1 = Button()
+Button1.text = 'Elements'
+Button2 = Button()
+Button2.text = 'Forms'
+Button3 = Button()
+Button3.text = 'Alerts'
+Button4 = Button()
+Button4.text = 'Widgets'
+Button5 = Button()
+Button5.text = 'Interaction'
+Button6 = Button()
+Button6.text = 'Bookstore'
+
+    def __init__(self, link):
+        self.link = link
+
     def click(self):
-        return 'клик по кнопке'- {}".format(self.loc")
+        return 'клик по кнопке'- {}".format(self.link")
 
-
-Elements = Button()
-Forms = Button()
-Alerts = Button()
-Widgets = Button()
-Interactions = Button()
-BookStore = Button()
